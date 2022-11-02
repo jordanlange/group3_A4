@@ -66,7 +66,7 @@ app.post('/addStudent', (req, res) => {
         
         
     } catch {
-        return res.status(500).json('message: failed to add coin - bad data');
+        return res.status(500).json('message: failed to add student');
     };
 });
 
